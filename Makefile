@@ -1,6 +1,4 @@
-c1make: c1.c
-	gcc -o c1make c1.c
+c1make: c2.c
+	gcc -o c1make c2.c
 
-clean:
-	rm -f *.o c1make Makefile
-	mv Makefile.orig Makefil
+
