@@ -1,0 +1,12 @@
+user@notebook:~/c2$ cpplint c2.c
+c2.c:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+c2.c:4:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+c2.c:5:  Extra space before ( in function call  [whitespace/parens] [4]
+c2.c:6:  Redundant blank line at the start of a code block should be deleted.  [whitespace/blank_line] [2]
+c2.c:7:  Weird number of spaces at line-start.  Are you using a 2-space indent?  [whitespace/indent] [3]
+c2.c:7:  Missing space before ( in for(  [whitespace/parens] [5]
+c2.c:9:  Weird number of spaces at line-start.  Are you using a 2-space indent?  [whitespace/indent] [3]
+c2.c:11:  Weird number of spaces at line-start.  Are you using a 2-space indent?  [whitespace/indent] [3]
+Done processing c2.c
+Total errors found: 8
+

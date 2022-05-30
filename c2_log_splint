@@ -1,0 +1,10 @@
+user@notebook:~/c2$ splint c2.c
+Splint 3.1.2 --- 20 Feb 2018
+
+c2.c: (in function main)
+c2.c:11:11: Unreachable code: return 0
+  This code will never be reached on any possible execution. (Use -unreachable
+  to inhibit warning)
+
+Finished checking --- 1 code warning
+
